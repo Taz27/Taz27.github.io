@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memeapp/static/css/main.76ecced6.chunk.css",
+    "main.js": "/memeapp/static/js/main.026dc007.chunk.js",
+    "main.js.map": "/memeapp/static/js/main.026dc007.chunk.js.map",
+    "runtime-main.js": "/memeapp/static/js/runtime-main.7e950a58.js",
+    "runtime-main.js.map": "/memeapp/static/js/runtime-main.7e950a58.js.map",
+    "static/js/2.3400416c.chunk.js": "/memeapp/static/js/2.3400416c.chunk.js",
+    "static/js/2.3400416c.chunk.js.map": "/memeapp/static/js/2.3400416c.chunk.js.map",
+    "index.html": "/memeapp/index.html",
+    "precache-manifest.e44860d8daef47c84071ade31c71cafd.js": "/memeapp/precache-manifest.e44860d8daef47c84071ade31c71cafd.js",
+    "service-worker.js": "/memeapp/service-worker.js",
+    "static/css/main.76ecced6.chunk.css.map": "/memeapp/static/css/main.76ecced6.chunk.css.map",
+    "static/js/2.3400416c.chunk.js.LICENSE": "/memeapp/static/js/2.3400416c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e950a58.js",
+    "static/js/2.3400416c.chunk.js",
+    "static/css/main.76ecced6.chunk.css",
+    "static/js/main.026dc007.chunk.js"
+  ]
+}
