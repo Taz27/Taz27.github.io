@@ -39,3 +39,17 @@ body, html {
     -ms-transition: all 1s;
 }
 
+#codedby {
+    position: fixed;
+    width: 480px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #codedby {
+      font-size: 13px;
+    }
+  }

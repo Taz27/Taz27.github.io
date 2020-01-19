@@ -76,3 +76,11 @@ button:hover {
     background-color: #3c78aa;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    #colorDisplay {
+      font-size: 120%;
+    }
+    #message {
+        display: inline;
+    }
+  }
