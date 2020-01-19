@@ -82,5 +82,6 @@ button:hover {
     }
     #message {
         display: inline;
+        font-size: small;
     }
   }
