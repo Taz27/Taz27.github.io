@@ -29,7 +29,7 @@
           var endSeconds = options.endtimeSeconds;
 
           if(tZ == "") {
-            var deadline = new Date('03 Feb 2020 17:00:00 GMT');
+            var deadline = new Date('10 Feb 2020 17:00:00 GMT');
           } 
           else {
             var deadline = moment.tz([endYear, endMonth - 1, endDate, endHours, endMinutes, endSeconds], tZ).format();
