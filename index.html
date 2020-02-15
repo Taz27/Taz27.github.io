@@ -1,121 +1,298 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-	<title>My Portfolio</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
+    <title>Portfolio - Taran Mand - Full Stack Web Developer</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website - Taran Mand - Full Stack Web Developer">
+    <meta name="author" content="Taran Mand">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+</head> 
+
 <body>
+    
+    <header class="header">
+	    
+        <div class="top-bar theme-bg-primary-darken">
+            
+            <div class="container-fluid">
+            
+				<nav class="navbar navbar-expand-lg navbar-dark position-relative">
+					
+					
+					<ul class="social-list list-inline mb-0">
+			            <li class="list-inline-item"><a class="text-white" href="https://twitter.com/taranmand"><i class="fab fa-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="https://www.linkedin.com/in/taranmand"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="https://github.com/taz27"><i class="fab fa-github-alt fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="https://stackoverflow.com/users/12162409/taz"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="https://codepen.io/taz27"><i class="fab fa-codepen fa-fw"></i></a></li>
+		            </ul><!--//social-list-->
+					
 	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/taran2.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/taran2.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/taran2.jpg');"></div>
-	</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div class="collapse navbar-collapse text-uppercase" id="navigation">
+						<ul class="navbar-nav ml-lg-auto">
+							<li class="nav-item active mr-lg-3">
+							    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							   <a class="nav-link" href="projects.html">Projects</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="resume.html">Resume</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="contact.html">Contact</a>
+							</li>		
+						</ul>
+						<span id="slide-line"></span>
+					</div>
+					
+					
+					
+				</nav>
+            
+            </div><!--//container-->
+            
+        </div><!--//top-bar-->
+        
+        <div class="header-intro theme-bg-primary text-white py-5">
+	        <div class="container">
+		        <div class="profile-teaser media flex-column flex-md-row">
+				    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/profile.jpg" alt="">
+					<div class="media-body text-center text-md-left">
+					<div class="lead">Hello, my name is</div>
+					<h2 class="mt-0 display-4 font-weight-bold">Taran Mand</h2>
+					<div class="bio mb-3">I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>.
+					</div><!--//bio-->
+					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="contact.html">Hire Me</a>
+					
+					</div><!--//media-body-->
+				</div><!--//profile-teaser-->
+		        
+	        </div><!--//container-->
+        </div><!--//header-intro-->
+        
+    </header><!--//header-->
+        
+    <section class="skills-section section py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-3">Skills Overview</h3>
+	        <div class="section-intro mx-auto text-center mb-5 text-secondary">I have good experience building rich web applications using latest technologies. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>.</div>
+	        
+	        <div class="skills-blocks mx-auto pt-5">
+		        <div class="row">
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Frontend</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/frontend-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>React.js/Redux</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>HTML5/CSS3/SASS</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>JavaScript ES6+/jQuery</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Bootstrap 3 & 4</li>							        
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Webpack/Gulp/Grunt</li>
+						        
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Backend</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/backend-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Node.js</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>PHP</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Python</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>MySQL</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>MongoDB</li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Others</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/other-skills-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>DevOps</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Git/GitHub</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>RESTful API</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>UX/Wireframing</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Wordpress/Joomla</li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+		        </div><!--//row-->
+	        </div>
+        </div><!--//container-->
+    </section><!--//skills-section-->
+    
+    
+    <section class="section-featured-projects py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-5">Featured Projects</h3>
+        
+	        <div class="project-cards row mb-5">
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-yelpcamp-thumb.jpg" alt="">
+							<!-- <div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-1-inverse.svg"></div>
+							</div> -->
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<!-- <h5 class="card-title font-weight-bold">Client: </h5> -->
+							    <p class="card-text">This is an interactive web application where users can view and share information about their favourite campgrounds around the world...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">Yelpcamp - Node.js app</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML5/CSS3</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Bootstrap</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">jQuery</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">NodeJS</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >ExpressJS</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">MongoDB</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-blogsite-thumb.jpg" alt="">
+							<!-- <div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-2-inverse.svg"></div>
+							</div> -->
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<!-- <h5 class="card-title font-weight-bold">Client: </h5> -->
+							    <p class="card-text">I developed this blog app where users can view, add, edit and delete blog posts. I followed the RESTful API routing conventions...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">RESTful Blog - Node.js app</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML5/CSS3</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Semantic UI</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">NodeJS</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >ExpressJS</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">MongoDB</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-picsome-thumb.jpg" alt="">
+							<!-- <div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-3-inverse.svg"></div>
+							</div> -->
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<!-- <h5 class="card-title font-weight-bold">Client: </h5> -->
+							    <p class="card-text">This is a mock e-commerce app which allows users to look at the photos available and choose some of them to be printed and shipped (theoretically) by placing an order...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">PicSome - React.js app</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">React Hooks/Router/Context</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >HTML5/CSS3</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">JSX</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Webpack</span></li>
+								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Babel</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+			    
+	        </div><!--//row-->
+	        <div class="text-center">
+	            <a class="btn btn-primary" href="projects.html">View all projects</a>
+	        </div>
+        </div><!--///container-->
+        
+    </section>
+    
+    
+    
+	<section class="section-cta py-5 bg-primary text-white">
+		<div class="container">
+			<div class="text-center">
+			    <img class="profile-small d-inline-block mx-auto rounded-circle mb-2" src="assets/images/profile.jpg" alt="">
+		    </div>
+		    <h3 class="section-title font-weight-bold text-center mb-2">Interested in hiring me for your project?</h3>
+		    <div class="section-intro mx-auto text-center mb-3">
+			    Looking for an experienced full-stack developer to build your web app or ship your software product? To start an initial chat, just drop me an email at <a class="link-on-bg" href="mailto:tsmand@yahoo.com">tsmand@yahoo.com</a> or use the <a class="link-on-bg" href="contact.html">form on the contact page</a>.
+		    </div>
+		    <div class="text-center">
+		        <a class="theme-btn-on-bg btn" href="contact.html">Let's Talk</a>
+		    </div>
+		</div><!--//container-->
+	</section>
+    
+    <footer class="footer text-light text-center py-2">
+	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand</a> 2020</small>
+    </footer>
+    
+    
+       
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>    
+    
+    <!-- Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/flickity/flickity.pkgd.min.js"></script> 
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
-
-			<p class="m2-txt1 txt-center p-b-48">
-				My name is <span style="color: #846add;">Taran Mand</span>, and I am a <span style="color: #846add;">Full-Stack Developer</span>. My portfolio website is under construction!
-			</p>
-
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">30</span>
-					<span class="s2-txt1">Days</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
-
-			<!-- <form class="w-full flex-w flex-c-m validate-form">
-
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
-				</div>
-				
-				
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form> -->
-		</div>
-	</div>
-
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+    
 
 </body>
-</html>
+</html> 
+
