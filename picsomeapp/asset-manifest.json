@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/picsomeapp/static/css/main.2d24cbed.chunk.css",
-    "main.js": "/picsomeapp/static/js/main.50263a01.chunk.js",
-    "main.js.map": "/picsomeapp/static/js/main.50263a01.chunk.js.map",
-    "runtime-main.js": "/picsomeapp/static/js/runtime-main.18ed45b0.js",
-    "runtime-main.js.map": "/picsomeapp/static/js/runtime-main.18ed45b0.js.map",
-    "static/js/2.6d03c205.chunk.js": "/picsomeapp/static/js/2.6d03c205.chunk.js",
-    "static/js/2.6d03c205.chunk.js.map": "/picsomeapp/static/js/2.6d03c205.chunk.js.map",
+    "main.css": "/picsomeapp/static/css/main.77523fa8.chunk.css",
+    "main.js": "/picsomeapp/static/js/main.ddd5e7e5.chunk.js",
+    "main.js.map": "/picsomeapp/static/js/main.ddd5e7e5.chunk.js.map",
+    "runtime-main.js": "/picsomeapp/static/js/runtime-main.7292f882.js",
+    "runtime-main.js.map": "/picsomeapp/static/js/runtime-main.7292f882.js.map",
+    "static/css/2.b83dc002.chunk.css": "/picsomeapp/static/css/2.b83dc002.chunk.css",
+    "static/js/2.de4131bd.chunk.js": "/picsomeapp/static/js/2.de4131bd.chunk.js",
+    "static/js/2.de4131bd.chunk.js.map": "/picsomeapp/static/js/2.de4131bd.chunk.js.map",
     "index.html": "/picsomeapp/index.html",
-    "precache-manifest.94c2f38ac4cd3160bcc35a3ff9f20edf.js": "/picsomeapp/precache-manifest.94c2f38ac4cd3160bcc35a3ff9f20edf.js",
+    "precache-manifest.eca191aabbe48973fba8f60856f4609e.js": "/picsomeapp/precache-manifest.eca191aabbe48973fba8f60856f4609e.js",
     "service-worker.js": "/picsomeapp/service-worker.js",
-    "static/css/main.2d24cbed.chunk.css.map": "/picsomeapp/static/css/main.2d24cbed.chunk.css.map",
-    "static/js/2.6d03c205.chunk.js.LICENSE": "/picsomeapp/static/js/2.6d03c205.chunk.js.LICENSE"
+    "static/css/2.b83dc002.chunk.css.map": "/picsomeapp/static/css/2.b83dc002.chunk.css.map",
+    "static/css/main.77523fa8.chunk.css.map": "/picsomeapp/static/css/main.77523fa8.chunk.css.map",
+    "static/js/2.de4131bd.chunk.js.LICENSE.txt": "/picsomeapp/static/js/2.de4131bd.chunk.js.LICENSE.txt",
+    "static/media/remixicon.css": "/picsomeapp/static/media/remixicon.e5b755b0.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.18ed45b0.js",
-    "static/js/2.6d03c205.chunk.js",
-    "static/css/main.2d24cbed.chunk.css",
-    "static/js/main.50263a01.chunk.js"
+    "static/js/runtime-main.7292f882.js",
+    "static/css/2.b83dc002.chunk.css",
+    "static/js/2.de4131bd.chunk.js",
+    "static/css/main.77523fa8.chunk.css",
+    "static/js/main.ddd5e7e5.chunk.js"
   ]
 }
