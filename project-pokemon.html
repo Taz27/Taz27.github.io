@@ -89,7 +89,7 @@
         
         <div class="header-intro theme-bg-primary text-white py-5">
 	        <div class="container position-relative">		        
-		        <h2 class="page-heading mb-2">PHP CLI Script</h2>
+		        <h2 class="page-heading mb-2">Pokemon Apollo GraphQL - React.js app</h2>
 		        <!-- <div class="page-heading-tagline">Project tagline goes here lorem ipsum dolor sit amet.</div> -->
 		    
 	        </div><!--//container-->
@@ -101,45 +101,20 @@
 	    <div class="row">   
 	        <section class="col-12 col-lg-8">
 		        <div class="section-row">
-			        <div class="mb-5"><a href="https://github.com/taz27/catalyst-coding-task" target="_blank"><img class="img-fluid" src="assets/images/projects/php_cmd_main.jpg" alt=""></a></div>
+			        <div class="mb-5"><a href="https://taranmand.me/pokemon-graphql-app" target="_blank"><img class="img-fluid" src="assets/images/projects/pokemon_main.jpg" alt=""></a></div>
 			        <h3 class="section-title">Project Background</h3>
 			        
 			        <p style="text-align: justify;">
-						I coded this <strong>PHP script</strong> as part of a coding challenge given by Catalyst IT Australia 
-						which is executed from the command line. It accepts a CSV file as an input <em>(using command line 
-						options/directives)</em> and processes the CSV file. The parsed file data is inserted into a 
-						<strong>PostgreSQL</strong> database. The CSV file contains test/dummy data, and the script processes this file appropriately.
+						This is a very simple app that I developed using <strong>ReactJS</strong> and <strong>Apollo GraphQL</strong> client library. 
+						All it does is to get 'Pokemons' data from Pokemon open API (GraphQL server) using <em>useQuery</em> 
+						hook and displays styled Pokemon components.
                     </p>
-                    <p style="text-align: justify;display: inline;">
-                        This PHP script handles the following criteria:
-					</p>
-					<ul>
-						<li>CSV file contains user data and have three columns: name, surname, email.</li>
-						<li>CSV file has an arbitrary list of users.</li>
-						<li>The script iterates through the CSV rows and inserts each record into a dedicated PostgreSQL database into the table “users”.</li>
-						<li>The “users” database table is created/rebuilt as part of the PHP script. This is defined as a Command Line directive <em>--create_table</em>.</li>
-						<li>Name and surname is capitalised e.g. from “john” to “John” before being inserted into DB.</li>
-						<li>Email is set to be lower case before being inserted into DB.</li>
-						<li>The script validates the email address before inserting to make sure that it is valid.</li>
-					</ul>
-					<p style="text-align: justify;display: inline;">
-                        The PHP script includes these command line options (directives):
-					</p>
-					<ul>
-						<li>--file [csv file name] – this is the name of the CSV to be parsed.</li>
-						<li>--create_table – this will cause the PostgreSQL users table to be built/rebuilt (and no further action will be taken).</li>
-						<li>--dry_run – this will be used with the --file directive in case we want to run the script but not insert into the DB. All other functions will be executed, but the database won't be altered.</li>
-						<li>-u – PostgreSQL username.</li>
-						<li>-p – PostgreSQL password.</li>
-						<li>-h – PostgreSQL host.</li>
-						<li>--help – which will output the above list of directives with details.</li>
-					</ul>
-
+                    
                     <p>
-                        Source code is available in my GitHub Repository.
+                        I have deployed it on GitHub Pages.
                     </p>
 			        
-			        <div class="mb-5"><a class="btn btn-primary" href="https://github.com/taz27/catalyst-coding-task" target="_blank"><i class="fas fa-external-link-alt mr-2"></i>View on GitHub</a></div>
+			        <div class="mb-5"><a class="btn btn-primary" href="https://taranmand.me/pokemon-graphql-app" target="_blank"><i class="fas fa-external-link-alt mr-2"></i>View Live Site</a></div>
 			        
 			        
 		        </div><!--//section-row-->
@@ -153,8 +128,8 @@
 				         <h3 class="sidebar-title mb-4">Project Info</h3>
 				         <ul class="list-unstyled pl-2">
 					         <!-- <li class="mb-4"><i class="fas fa-building mr-3 text-primary" data-fa-transform="grow-6 down-2"></i><strong>Client:</strong> Basecamp</li> -->
-					         <li class="mb-4"><i class="fas fa-external-link-alt mr-3 text-primary" data-fa-transform="grow-6 down-2"></i><strong>GitHub Repo:</strong> <a href="https://github.com/taz27/catalyst-coding-task" target="_blank">https://github.com/taz27/catalyst-coding-task</a></li>
-					         <li><i class="fas fa-wrench mr-3 text-primary" data-fa-transform="grow-6 down-2"></i><strong>Type:</strong> Backend</li>
+					         <li class="mb-4"><i class="fas fa-external-link-alt mr-3 text-primary" data-fa-transform="grow-6 down-2"></i><strong>GitHub Repo:</strong> <a href="https://github.com/taz27/pokemon-graphql-app" target="_blank">https://github.com/taz27/pokemon-graphql-app</a></li>
+					         <li><i class="fas fa-wrench mr-3 text-primary" data-fa-transform="grow-6 down-2"></i><strong>Type:</strong> Frontend</li>
 				         </ul>
 			        </div>
 		        <div class="sidebar-row">
@@ -163,22 +138,23 @@
 			            <div class="webdev-icons row mb-5 align-items-center">
 				            
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/angular.svg"></div> -->
-					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/react.svg"></div> -->
+							<div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/apollo-graphql.svg"></div>
+							<div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/react.svg"></div>
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/nodejs.svg"></div> -->
-					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/javascript.svg"></div> -->
+					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/javascript.svg"></div>
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/jquery-alt.svg"></div>			        -->
-					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/html5.svg"></div>		 -->
-					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/css3.svg"></div>		         -->
+					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/html5.svg"></div>		
+					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/css3.svg"></div>		        
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/sass.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/less.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/python.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/ruby.svg"></div> -->
-					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/php.svg"></div>
-					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/postgresql.svg"></div>
+					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/php.svg"></div> -->
+					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/postgresql.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/mysql-alt.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/mongodb-alt.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/grunt.svg"></div> -->
-					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/webpack.svg"></div> -->
+					        <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/webpack.svg"></div>
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/bootstrap4.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/flux.svg"></div> -->
 					        <!-- <div class="webdev-icon col-4 col-md-3 mr-0 mb-4"><img class="img-fluid" src="assets/images/webdev-icons/vue.svg"></div> -->
@@ -194,33 +170,6 @@
 		<div class="container">
 			<h3 class="section-title font-weight-bold text-center mb-4">Other Projects</h3>
 			<div class="project-cards row">
-
-				<div class="col-12 col-lg-4">
-					<div class="card rounded-0 border-0 shadow-sm mb-5">
-						<div class="card-img-container position-relative">
-							<img class="card-img-top rounded-0" src="assets/images/projects/pokemon_thumb.jpg" alt="">
-							
-							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project-pokemon.html">
-								
-							    <p class="card-text" style="text-align: justify;">This is a very simple app that I developed using ReactJS and Apollo GraphQL...</p>
-							</a>
-						</div>
-						<div class="card-body pb-0">
-							<h4 class="card-title text-truncate text-center mb-0"><a href="project-pokemon.html">Pokemon Apollo GraphQL - React.js</a></h4>
-						</div>
-						
-						<div class="card-footer border-0 text-center bg-white pb-4">
-							<ul class="list-inline mb-0 mx-auto">
-								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Apollo GraphQL</span></li>
-								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">React Hooks</span></li>
-						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >HTML5/CSS3</span></li>
-								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
-								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Webpack</span></li>
-								<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Babel</span></li>
-							</ul>
-					    </div>
-				    </div><!--//card-->
-				</div>
 				
 				<div class="col-12 col-lg-4">
 				   <div class="card rounded-0 border-0 shadow-sm mb-5">
@@ -276,6 +225,34 @@
 					   </div>
 				   </div><!--//card-->
 			   </div>
+			   
+			   <div class="col-12 col-lg-4">
+				   <div class="card rounded-0 border-0 shadow-sm mb-5">
+					   <div class="card-img-container position-relative">
+						   <img class="card-img-top rounded-0" src="assets/images/projects/project-picsome-thumb.jpg" alt="">
+						   
+						   <a class="card-img-overlay overlay-content text-left p-lg-4" href="project-picsome.html">
+							   
+							   <p class="card-text" style="text-align: justify;">This is a mock e-commerce app which allows users to look at the photos available and choose some of them to be printed and shipped...</p>
+						   </a>
+					   </div>
+					   <div class="card-body pb-0">
+						   <h4 class="card-title text-truncate text-center mb-0"><a href="project-picsome.html">PicSome - React.js app</a></h4>
+					   </div>
+					   
+					   <div class="card-footer border-0 text-center bg-white pb-4">
+						   <ul class="list-inline mb-0 mx-auto">
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill">React Hooks/Router/Context</span></li>
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >HTML5/CSS3</span></li>
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill">JSX</span></li>
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Webpack</span></li>
+							   <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Babel</span></li>
+						   </ul>
+					   </div>
+				   </div><!--//card-->
+			   </div>
+			  
 			   
 		   </div><!--//row-->
 		   
