@@ -40,7 +40,38 @@
     
     
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+	<style>
+		div.aws {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 120px;
+			height: 120px;
+			/* border: 1px solid #73AD21; */
+		}
+
+		div.aws img {
+			width: 100%;
+			height: auto;
+		}
+
+		@media only screen and (max-width: 1200px) {
+			/* For iPads: */
+			div.aws {
+				width: 10%;
+				height: auto;
+			}
+		}
+
+		@media only screen and (max-width: 768px) {
+			/* For mobile phones: */
+			div.aws {
+				width: 75px;
+				height: 75px;
+			}
+		}
+	</style>
 
 </head> 
 
@@ -164,7 +195,7 @@
 					            <img class="skills-icon" src="assets/images/other-skills-icon.svg">
 					        </div>
 					        <ul class="skills-list list-unstyled text-secondary">
-								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>DevOps</li>
+								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>DevOps/Docker</li>
 								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Git/GitHub</li>
 								<li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>RESTful API</li>
 						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>UX/Wireframing</li>
@@ -294,7 +325,12 @@
     <footer class="footer text-light text-center py-2">
 	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand</a> 2020</small>
     </footer>
-    
+	
+	<div class="aws">
+		<a href="https://www.youracclaim.com/badges/be6e74c9-c7aa-443a-af23-68c04a729a78/public_url" target="_blank">
+			<img src="assets/images/logos/aws-certified-dev-logo2.png" alt="aws-cdl">
+		</a>
+	</div>
        
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
