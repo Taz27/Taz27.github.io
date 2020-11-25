@@ -138,7 +138,19 @@
 		                 <div class="form-group col-12">
 		                    <button type="submit" class="btn btn-block btn-primary py-2">Send It</button>
 		                </div>                           
-		            </div><!--//form-row-->
+					</div><!--//form-row-->
+
+					<input type="hidden" id="user-ip" name="user-ip">
+					<input type="hidden" id="user-city" name="user-city">
+					<input type="hidden" id="user-region" name="user-region">
+					<input type="hidden" id="user-country" name="user-country">
+					<input type="hidden" id="user-continent" name="user-continent">
+					<input type="hidden" id="user-timezone" name="user-timezone">
+					<input type="hidden" id="user-isp-name" name="user-isp-name">
+					<input type="hidden" id="user-isp-sys-org" name="user-isp-sys-org">
+					<input type="hidden" id="user-conn-type" name="user-conn-type">
+					<input type="hidden" id="user-isvpn" name="user-isvpn">
+					
 		        </form>
 		        
             </div><!--//row-->
@@ -150,8 +162,7 @@
 	<footer class="footer text-light text-center py-2">
 	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand</a> 2020</small>
     </footer>
-    
-       
+	   
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
@@ -164,7 +175,8 @@
 
     <!-- Custom JS -->
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/form.js"></script>
+	<script type="text/javascript" src="assets/js/form.js"></script>
+	<script type="text/javascript" src="assets/js/userloc.js"></script>
     
 
 </body>
