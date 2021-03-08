@@ -11,13 +11,13 @@
 		gtag('config', 'UA-158881095-1');
 	</script>
 	
-	<title>Portfolio - Taran Mand - Full Stack Web Developer</title>
+	<title>Portfolio - Taran Mand - Full Stack Developer</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Website - Taran Mand - Full Stack Web Developer">
+    <meta name="description" content="Portfolio Website - Taran Mand - Full Stack Developer">
     <meta name="author" content="Taran Mand"> 
     <link rel="shortcut icon" href="favicon.ico"> 
     
@@ -428,7 +428,7 @@
     </article>  
     
 	<footer class="footer text-light text-center py-2">
-	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand</a> 2020</small>
+	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand </a><span id="yearLbl"></span></small>
     </footer>
     
     
@@ -441,7 +441,11 @@
     <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>    
 
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script>
+		let year = (new Date()).getFullYear();
+		document.getElementById("yearLbl").innerHTML = year;
+	</script>
     
 
 </body>

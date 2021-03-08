@@ -11,13 +11,13 @@
 		gtag('config', 'UA-158881095-1');
 	</script>
 
-    <title>Portfolio - Taran Mand - Full Stack Web Developer</title>
+    <title>Portfolio - Taran Mand - Full Stack Developer</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Website - Taran Mand - Full Stack Web Developer">
+    <meta name="description" content="Portfolio Website - Taran Mand - Full Stack Developer">
 	<meta name="author" content="Taran Mand">
 
 	<!-- Social Media Open Graph (OG) Meta -->
@@ -107,9 +107,9 @@
 							<li class="nav-item mr-lg-3">
 							   <a class="nav-link" href="projects.html">Projects</a>
 							</li>
-							<li class="nav-item mr-lg-3">
+							<!-- <li class="nav-item mr-lg-3">
 							    <a class="nav-link" href="resume.html">Resume</a>
-							</li>
+							</li> -->
 							<li class="nav-item mr-lg-3">
 							    <a class="nav-link" href="contact.html">Contact</a>
 							</li>		
@@ -133,9 +133,9 @@
 					<div class="lead">Hello, my name is</div>
 					<h2 class="mt-0 display-4 font-weight-bold">Taran Mand</h2>
 					<div class="bio mb-3">I am a full-stack developer holding <a class="link-on-bg" href="assets/aws_certificate_taranmand.pdf" target="_blank">AWS Certified Developer - Associate (DVA-C01)</a> certification. 
-						I am specialized in frontend and backend development and deployment of complex and scalable web apps including SaaS/Cloud-based application development and Serverless applications in the AWS Cloud.
+						I am specialized in frontend and backend development and deployment for complex scalable web apps including SaaS/Cloud-based application development and Serverless applications in the AWS Cloud.
 						<a class="link-on-bg" href="https://www.youracclaim.com/badges/be6e74c9-c7aa-443a-af23-68c04a729a78/public_url" target="_blank">View my Digital Badge for my AWS certification.</a> 
-						Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>.
+						Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio.</a><!-- and <a class="link-on-bg" href="resume.html">online resume</a>. --> 
 					</div><!--//bio-->
 					
 					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="contact.html">Hire Me</a>
@@ -151,7 +151,7 @@
     <section class="skills-section section py-5">
         <div class="container">
 	        <h3 class="section-title font-weight-bold text-center mb-3">Skills Overview</h3>
-	        <div class="section-intro mx-auto text-center mb-5 text-secondary">I have good experience building rich web applications using latest technologies. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>.</div>
+	        <div class="section-intro mx-auto text-center mb-5 text-secondary">I have good experience building rich web applications using latest technologies. Below is a quick overview of my main technical skill sets and tools I use.<!-- Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>. --></div>
 	        
 	        <div class="skills-blocks mx-auto pt-5">
 		        <div class="row">
@@ -323,7 +323,7 @@
 	</section>
     
     <footer class="footer text-light text-center py-2">
-	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand</a> 2020</small>
+	    <small class="copyright">Copyright &copy; <a class="text-light" href="index.html">Taran Mand </a><span id="yearLbl"></span></small>
     </footer>
 	
 	<div class="aws">
@@ -343,7 +343,11 @@
 
     <!-- Custom JS -->
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+	<script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+	<script>
+		let year = (new Date()).getFullYear();
+		document.getElementById("yearLbl").innerHTML = year;
+	</script>
     
 
 </body>
